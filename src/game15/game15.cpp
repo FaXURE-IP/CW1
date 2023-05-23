@@ -5,7 +5,6 @@
 #include <iostream>
 #include <random>
 #include <string>
-#include <windows.h>
 
 #include "../game15_graph/game15_graph.h"
 #include "../game15_logic/game15_logic.h"

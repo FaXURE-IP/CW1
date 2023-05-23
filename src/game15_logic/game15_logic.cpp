@@ -5,7 +5,7 @@
 #include <iostream>
 #include <random>
 #include <string>
-#include <windows.h>
+#include <unistd.h>
 
 const char* IMAGE
         = "../external/images/image.jpg"; // Путь к картинке заднего фона
@@ -190,7 +190,7 @@ void YouWin(sf::RenderWindow& window)
     YouWin.setPosition(WIGHT / 2 - 300, HEIGHT / 2 - 300);
     window.draw(YouWin);
     window.display();
-    Sleep(1500);
+    sleep(2);
 }
 // Инициализация Пятнашек
 int Game(

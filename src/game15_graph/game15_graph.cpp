@@ -5,7 +5,7 @@
 #include <iostream>
 #include <random>
 #include <string>
-#include <windows.h>
+#include <unistd.h>
 
 #include "../game15_logic/game15_logic.h"
 
