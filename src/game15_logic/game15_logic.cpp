@@ -1,11 +1,10 @@
 #include <SFML/Graphics.hpp>
-
 #include <ctime>
 #include <fstream>
 #include <iostream>
 #include <random>
 #include <string>
-#include <unistd.h>
+#include <windows.h>
 
 const char* IMAGE
         = "../external/images/image.jpg"; // Путь к картинке заднего фона
@@ -190,7 +189,7 @@ void YouWin(sf::RenderWindow& window)
     YouWin.setPosition(WIGHT / 2 - 300, HEIGHT / 2 - 300);
     window.draw(YouWin);
     window.display();
-    sleep(2);
+    Sleep(1500);
 }
 // Инициализация Пятнашек
 int Game(
